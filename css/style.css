@@ -885,7 +885,7 @@ ul.breadcrumb li+li:before {
         padding-right: 0;
     }
     .judge-info h3 {
-        margin-right: -15px;
+        padding-left: 57px;
         font-size: 18px;
     }
 }

@@ -27,19 +27,13 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="boarder-space">
-                            <div class="row">
-                                <!-- <div class="col-md-6"> -->
-                                <div class="judge-img">
-                                    <img src="images/levels_3_copy_2.png" alt="Los Angeles" class="img-fluid">
-                                </div>
-                                <!-- </div> -->
-                                <!-- <div class="col-md-6"> -->
-                                <div class="judge-info">
-                                    <h3>Adrin Pradhan</h3>
-                                    <p>One of the most revered voices in the modern Nepali music, Adrian Pradhan is a formidable name in Nepali music. A true artist in his own right, the singer-songwriter and composer of the 1974 AD fame plays multiple instruments,
-                                        sells out international tours and still manages to stick to his humble roots. He has 5 solo albums to his credit plus 8 more with 1974 A.D. We are proud to announce Adrain Pradhan as our judge.
-                                </div>
-                                <!-- </div> -->
+                            <div class="judge-img">
+                                <img src="images/levels_3_copy_2.png" alt="Los Angeles" class="img-fluid">
+                            </div>
+                            <div class="judge-info">
+                                <h3>Adrin Pradhan</h3>
+                                <p>One of the most revered voices in the modern Nepali music, Adrian Pradhan is a formidable name in Nepali music. A true artist in his own right, the singer-songwriter and composer of the 1974 AD fame plays multiple instruments,
+                                    sells out international tours and still manages to stick to his humble roots. He has 5 solo albums to his credit plus 8 more with 1974 A.D. We are proud to announce Adrain Pradhan as our judge.
                             </div>
                         </div>
                     </div>
