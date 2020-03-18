@@ -74,6 +74,7 @@ h2 {
 
 h3 {
     font-size: 25px;
+    color: #C10F25;
 }
 
 h4 {
@@ -528,7 +529,7 @@ input[type='date']:after {
 }
 
 
-/*side-nav*/
+/* === side-nav === */
 
 #mySidenav .closebtn {
     font-size: 50px;
@@ -602,7 +603,7 @@ input[type='date']:after {
 }
 
 
-/*about*/
+/* === about === */
 
 .page-breadcrum {
     display: inline-block;
@@ -628,6 +629,7 @@ ul.breadcrumb li+li:before {
     /* background: #071334; */
     padding: 75px;
     position: relative;
+    margin-top: 170px;
 }
 
 .about-content::after {
@@ -651,7 +653,18 @@ ul.breadcrumb li+li:before {
 }
 
 
-/*judge*/
+/* === Event Section === */
+
+section.event-content {
+    margin-top: 170px;
+}
+
+
+/* === judge === */
+
+section.judges-highlights {
+    margin-top: 97px;
+}
 
 .judges-list .row {
     box-shadow: 0 0 5px #ddd;
@@ -740,7 +753,7 @@ ul.breadcrumb li+li:before {
 }
 
 
-/*event-format*/
+/* === event-format === sponsors ===*/
 
 .event-content div,
 .schedule-content>div {
@@ -757,7 +770,7 @@ ul.breadcrumb li+li:before {
 }
 
 
-/* Sponsor */
+/* === Sponsor === */
 
 .schedule-content .registration .img-container {
     display: flex;
@@ -770,6 +783,10 @@ ul.breadcrumb li+li:before {
 .schedule-content .img-container img {
     width: 200px;
     padding: 15px 10px;
+}
+
+section.schedule-content {
+    margin-top: 170px;
 }
 
 
@@ -821,6 +838,18 @@ ul.breadcrumb li+li:before {
     }
 }
 
+@media (max-width: 960px) {
+    .judge-img {
+        display: none;
+    }
+    .judge-info {
+        /* top: 0; */
+        /* left: 0; */
+        padding: 20px 10px;
+        margin: auto;
+    }
+}
+
 @media (max-width: 768px) {
     .carousel-inner {
         max-width: 100%;
@@ -834,9 +863,6 @@ ul.breadcrumb li+li:before {
     }
     .about-content .col-md-8 {
         margin-bottom: 25px;
-    }
-    .judge-info p {
-        display: none;
     }
 }
 
@@ -884,8 +910,10 @@ ul.breadcrumb li+li:before {
     #myModel {
         padding-right: 0;
     }
-    .judge-info h3 {
-        padding-left: 57px;
-        font-size: 18px;
+    section.judges-highlights {
+        margin-top: 132px;
+    }
+    .judge-info {
+        height: 500px;
     }
 }

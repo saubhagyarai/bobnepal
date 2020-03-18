@@ -1,13 +1,8 @@
 <?php include('./inc/header.php'); ?>
-<section class="page-menu">
-    <nav aria-label="breadcrumb">
-        <ul class="breadcrumb">
-            <li><a href="">Home</a></li>
-            <li>Rules & Regulation</li>
-        </ul>
-    </nav>
-</section>
+
 <section class="about-content">
+
+    <h1>Rules and Regulation</h1>
     <p>
         Rules and Regulations for participants of Battle of the Bands Nepal
     </p>

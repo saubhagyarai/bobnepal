@@ -1,12 +1,5 @@
 <?php include('./inc/header.php'); ?>
-<section class="page-menu">
-    <nav aria-label="breadcrumb">
-        <ul class="breadcrumb">
-            <li><a href="">Home</a></li>
-            <li>Event and Format</li>
-        </ul>
-    </nav>
-</section>
+
 <section class="event-content">
     <h1>Show Format</h1>
     <div class="registration wp-animated" data-animation="fadeIn">

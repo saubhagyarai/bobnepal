@@ -1,12 +1,5 @@
 <?php include('./inc/header.php'); ?>
-<section class="page-menu">
-	<nav aria-label="breadcrumb">
-		<ul class="breadcrumb">
-			<li><a href="index.php">Home</a></li>
-			<li>Sponsors</li>
-		</ul>
-	</nav>
-</section>
+
 <section class="schedule-content">
 	<h1>Sponsors and partners</h1>
 	<div class="registration wp-animated" data-animation="fadeIn">
