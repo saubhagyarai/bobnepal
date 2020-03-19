@@ -4,7 +4,7 @@
     <h1>Our Judges</h1>
     <div class="row">
         <div class="col-md-12">
-            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="0">
+            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
 
                 <!-- Indicators -->
                 <ul class="carousel-indicators">
