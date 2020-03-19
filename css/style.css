@@ -797,7 +797,11 @@ section.schedule-content {
 }
 
 
-/*contact*/
+/* === contact === */
+
+section.contact-content {
+    padding-top: 170px;
+}
 
 .contact-information {
     padding-left: 50px;

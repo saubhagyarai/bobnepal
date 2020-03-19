@@ -1,12 +1,5 @@
 <?php include('./inc/header.php'); ?>
-<section class="page-menu">
-	<nav aria-label="breadcrumb">
-		<ul class="breadcrumb">
-			<li><a href="">Home</a></li>
-			<li>Contact</li>
-		</ul>
-	</nav>
-</section>
+
 <section class="contact-content">
 	<h1>Contact Us</h1>
 	<div class="row">
