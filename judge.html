@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>BOB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+</head>
+
+<body class="home">
+
+    <div class="site-content container">
+        <div class="hero">
+            <header>
+
+
+                <div class="main-menu">
+                    <nav class="navbar navbar-expand-md navbar-light" id="main_navbar">
+                        <div class="nav-content">
+                            <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                            <!-- Newly added Modal (Delete the previous modal) (Thursday) -->
+
+
+                            <div class="two-btn">
+                                <div class="login-btn">
+
+                                    <!-- Newly Added -->
+
+                                    <div class="banner-button">
+                                        <a href="#"><i class="fab fa-app-store-ios"></i></a>
+                                        <span class="btn-text">Download app</span>
+                                        <a href="#"><i class="fab fa-google-play"></i></a>
+                                    </div>
+
+                                    <!-- Newly ends here -->
+
+                                    <!-- Newly Commented -->
+                                    <!-- <a href="" data-toggle="modal" data-target="#myModal"><i class="fas fa-guitar"></i> Audition Open</a> -->
+                                    <!-- Newly ends here -->
+
+                                    <!-- <div class="modal fade" id="onLoadModal">
+                                        <div class="modal-dialog modal-dialog-centered first">
+                                            <div class="modal-content">
+
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <div class="modal-body popup-form">
+                                                    <img src="http://bobnepal.com/frontend/images/abt.jpg" alt="" height="400" width="400">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+ -->
+
+                                    <!-- The Modal-->
+                                    <div class="modal fade" id="myModal">
+                                        <div class="modal-dialog modal-dialog-centered first">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+                                                <div class="modal-body popup-form">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <input type="text" placeholder="Name Of the band" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <input type="email" placeholder="type your email address" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <input type="text" placeholder="District" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <input type="date" placeholder="Year of Establishment" required>
+                                                                </div>
+                                                                <div class="form-group form-phone">
+                                                                    <select>
+                                                                        <option>+977</option>
+                                                                    </select>
+                                                                    <input type="number" placeholder="Phone Number" required>
+                                                                </div>
+                                                                <div class="login-account">
+                                                                    <button type="submit" class="innerBottom">Continue</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-dialog modal-dialog-centered second" style="display: none;">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+
+                                                <div class="modal-body popup-form">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <input type="email" placeholder="Email Address" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <input type="password" placeholder="Password" required>
+                                                                </div>
+                                                                <div class="account-manage">
+                                                                    <div class="remember">
+                                                                        <input type="checkbox"><span>Remember Me</span>
+                                                                    </div>
+                                                                    <div class="forget">
+                                                                        <a href="#">Forget Password ?</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="login-account">
+                                                                    <button type="submit" class="innerBottom">Log In</button>
+                                                                </div>
+                                                                <div class="login-with">
+                                                                    <p>Login with</p>
+                                                                </div>
+                                                                <div class="form-group external-login">
+                                                                    <a href=""><i class="fab fa-facebook-f"></i> Login with Facebook</a>
+                                                                </div>
+                                                                <div class="form-group external-login">
+                                                                    <a href=""><i class="fab fa-google"></i> Login with Google</a>
+                                                                </div>
+                                                                <div class="register">
+                                                                    Don't have an account? <a href=""><strong>Register</strong></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="side-menu"><a class="menu">Menu <img src="images/menu.png"></a></div>
+                            </div>
+                            <div class="body-overlay"></div>
+                        </div>
+                        <div id="mySidenav" class="sidenav">
+                            <button type="button" class="close" data-dismiss="modal">close <i class="fas fa-times"></i></button>
+                            <ol class="menu-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCSKPcmDcWv0Vz9pNmJ0yMqw">Videos</a></li>
+                                <li><a href="event-format.html">Show Format</a></li>
+                                <li><a href="judge.html">Judge & Host</a></li>
+                                <li><a href="sponsors.html">Sponsors</a></li>
+                                <li><a href="rules-regulation.html">Rules and Regulation</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ol>
+                            <div class="menu-contact">
+                                <div class="menu-address">
+                                    <p><i class="fas fa-map-marker-alt"></i> Newroad,<br> Kathmandu Nepal</p>
+                                    <p><i class="fas fa-envelope"></i> <a href="mailto:turnpikeevent@gmail.com">turnpikeevent@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+
+
+
+
+        <section class="judges-highlights">
+            <h1>Our Judges And Host</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"><i class="fas fa-circle"></i></li>
+                            <li data-target="#demo" data-slide-to="1"><i class="fas fa-circle"></i></li>
+                            <li data-target="#demo" data-slide-to="2"><i class="fas fa-circle"></i></li>
+                            <li data-target="#demo" data-slide-to="3"><i class="fas fa-circle"></i></li>
+
+                        </ul>
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="boarder-space">
+                                    <div class="row">
+                                        <div class="judge-img">
+                                            <img src="images/levels_3_copy_2.png" alt="Los Angeles" class="img-fluid">
+                                        </div>
+                                        <div class="judge-info">
+                                            <h2>Judge</h2>
+                                            <h3>Adrin Pradhan</h3>
+                                            <p>One of the most revered voices in the modern Nepali music, Adrian Pradhan is a formidable name in Nepali music. A true artist in his own right, the singer-songwriter and composer of the 1974 AD fame plays multiple
+                                                instruments, sells out international tours and still manages to stick to his humble roots. He has 5 solo albums to his credit plus 8 more with 1974 A.D. We are proud to announce Adrain Pradhan as our judge.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="boarder-space">
+                                    <div class="judge-img">
+                                        <img src="images/levels 3.png" alt="Los Angeles" class="img-fluid">
+                                    </div>
+                                    <div class="judge-info">
+                                        <h3>Iman Bikram Shah</h3>
+                                        <p>Little do public know about him despite his unparalleled contribution to Nepali music. But that is because he is the man behind the hit sounds of many heavyweights in Nepali music. Principal of Nepal Sangeet Vidhyalaya,
+                                            he is also a guitarist, composer and above all a veteran recording engineer, who is a scary judge of talent when it comes to music and sound. He is also the Lead guitarist of Mental Radio. It is our privilege
+                                            to have Iman Bikram Shah on our judge panel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="boarder-space">
+                                    <div class="judge-img">
+                                        <img src="images/levels_3_copy.png" alt="Los Angeles" class="img-fluid">
+                                    </div>
+                                    <div class="judge-info">
+                                        <h3>Mukti Shakya</h3>
+                                        <p>One of the iconic frontmen of one of the iconic bands in Nepal music, Mukti Shakya is among those few musicians who laid the foundation of rock and blues in Nepal. His career spans decades and his music, international
+                                            borders! Such is the legacy of The King of Nepali Blues that he requires little or no introduction Here is The King of Blues, Mukti Shakya - our final judge.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="boarder-space">
+
+                                    <div class="judge-img">
+                                        <img src="images/host-malvika1.png" alt="Los Angeles" class="img-fluid">
+                                    </div>
+                                    <div class="judge-info host">
+                                        <h3>Malvika Subba</h3>
+                                        <p>She was first thrust into the limelight in the early 2000s when she wore the crown of Miss Nepal. Today her identity extends well beyond the title of a beauty queen to that of a multidimensional public personality
+                                            - all thanks to her super-accomplished career that spans from being a celebrated media personality to speaking for social justice of the many, and from co-founding Himalayan Climate Initiative to lending her
+                                            expertise to many other corporate and non-profit firms. Meet our host, Malvika Subba.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <p>Copyright © Turnpike Event Pvt. Ltd 2020. All Rights Reserved. <a href="">Privacy</a> | <a href="terms.html">Terms</a>
+                <br>Powered By <a href="https://www.thesunbi.com/" target="_blank">SunBi</a>
+            </p>
+        </section>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="animation/jquery.waypoints.min.js"></script>
+    <script src="animation/easy-waypoint-animate.js"></script>
+    <script src="animation/main.js"></script>
+</body>
+<!-- by sajin manandhar -->
+
+</html>

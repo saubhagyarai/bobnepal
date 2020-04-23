@@ -24,23 +24,8 @@ jQuery(document).ready(function() {
 
 });
 
-// nav-content overlay scroll
+// Pop Up Modal onLoad
 
 $(document).ready(function() {
-    'use strict'
-
-    $(window).scroll(function() {
-        'use strict'
-        if ($(window).scrollTop() > 500) {
-            $('.nav-content').css({
-                'background': '#011D64',
-            });
-
-        } else {
-            $('.nav-content').css({
-                'background': 'none'
-            });
-
-        }
-    });
+    $('#onLoadModal').modal('show');
 });
