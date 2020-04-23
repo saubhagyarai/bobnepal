@@ -857,6 +857,7 @@
         .quick-contact form .form-group select {
             background: transparent;
             color: #fff;
+            width: 100%;
             border: unset;
         }
         
@@ -1041,6 +1042,9 @@
             }
             .carousel-indicators li .fas {
                 left: 0.5px !important;
+            }
+            .quick-contact form .form-group input {
+                overflow: hidden;
             }
         }
         
