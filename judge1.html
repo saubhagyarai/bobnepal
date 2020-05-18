@@ -62,7 +62,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                  -->
+ -->
 
                     <!-- The Modal-->
                     <div class="modal fade" id="myModal">
@@ -266,7 +266,7 @@
               id="demo"
               class="carousel slide"
               data-ride="carousel"
-              data-interval="3000"
+              data-interval="0"
             >
               <!-- Indicators -->
               <ul class="carousel-indicators">
@@ -409,20 +409,6 @@
     <script src="animation/jquery.waypoints.min.js"></script>
     <script src="animation/easy-waypoint-animate.js"></script>
     <script src="animation/main.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        if ($(window).width() < 835) {
-          $(function () {
-            $(".carousel-item.active .judge-img").hide("slow");
-          });
-          $(".carousel ").bind("slide.bs.carousel", function (e) {
-            console.log($(this));
-            $(".carousel-item .judge-img").show();
-            $(this).find(".judge-img").hide("slow");
-          });
-        }
-      });
-    </script>
   </body>
   <!-- by sajin manandhar -->
 </html>
