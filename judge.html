@@ -62,7 +62,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                  -->
+ -->
 
                     <!-- The Modal-->
                     <div class="modal fade" id="myModal">
@@ -288,28 +288,25 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="boarder-space">
-                    <div class="row">
-                      <div class="judge-img">
-                        <img
-                          src="images/levels_3_copy_2.png"
-                          alt="Los Angeles"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="judge-info">
-                        <h3>Adrin Pradhan</h3>
-                        <p>
-                          One of the most revered voices in the modern Nepali
-                          music, Adrian Pradhan is a formidable name in Nepali
-                          music. A true artist in his own right, the
-                          singer-songwriter and composer of the 1974 AD fame
-                          plays multiple instruments, sells out international
-                          tours and still manages to stick to his humble roots.
-                          He has 5 solo albums to his credit plus 8 more with
-                          1974 A.D. We are proud to announce Adrain Pradhan as
-                          our judge.
-                        </p>
-                      </div>
+                    <div class="judge-img">
+                      <img
+                        src="images/levels_3_copy_2.png"
+                        alt="Los Angeles"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="judge-info">
+                      <h3>Adrin Pradhan</h3>
+                      <p>
+                        One of the most revered voices in the modern Nepali
+                        music, Adrian Pradhan is a formidable name in Nepali
+                        music. A true artist in his own right, the
+                        singer-songwriter and composer of the 1974 AD fame plays
+                        multiple instruments, sells out international tours and
+                        still manages to stick to his humble roots. He has 5
+                        solo albums to his credit plus 8 more with 1974 A.D. We
+                        are proud to announce Adrain Pradhan as our judge.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -409,20 +406,5 @@
     <script src="animation/jquery.waypoints.min.js"></script>
     <script src="animation/easy-waypoint-animate.js"></script>
     <script src="animation/main.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        if ($(window).width() < 835) {
-          $(function () {
-            $(".carousel-item.active .judge-img").hide("slow");
-          });
-          $(".carousel ").bind("slide.bs.carousel", function (e) {
-            console.log($(this));
-            $(".carousel-item .judge-img").show();
-            $(this).find(".judge-img").hide("slow");
-          });
-        }
-      });
-    </script>
   </body>
-  <!-- by sajin manandhar -->
 </html>

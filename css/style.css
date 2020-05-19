@@ -133,8 +133,8 @@ section {
 /* Newly Commented Thursday */
 /* 
 .home .container {
-height: 100vh;
-} */
+    height: 100vh;
+    } */
 
 .nav-content {
   z-index: 111;
@@ -214,9 +214,10 @@ body {
   border-radius: 5px !important;
 }
 /* newly commented donot delete just comment */
-/* .two-btn span {
-padding: 15px;
-} */
+/* 
+.two-btn span {
+    padding: 15px;
+    } */
 /* newly ends here */
 
 .two-btn span a {
@@ -689,7 +690,7 @@ ul.breadcrumb li + li:before {
 .about-content {
   padding: 75px;
   position: relative;
-  /* margin-top: 170px; */
+  margin-top: 35px;
 }
 /* Newly ends here */
 
@@ -792,13 +793,14 @@ section.judges-highlights {
   transition: height 0.5s linear, width 0.5s linear 0.5s;
 }
 /* Ends here */
-/* may 18 */
 
 .judge-img img {
   position: absolute;
   height: 500px;
+  display: inline-block;
   top: 0;
   left: 0;
+  transition: all ease-out 5s;
 }
 
 .judge-info {
@@ -811,9 +813,6 @@ section.judges-highlights {
   text-align: center;
 }
 
-.judge-info p {
-  height: auto;
-}
 /* Newly Added For Quick Contact ( You can replace this block of code Thursday)  */
 
 .quick-contact form hr {
@@ -886,7 +885,6 @@ input[type="date"]:after {
 .quick-contact form .form-group select {
   background: transparent;
   color: #fff;
-  width: 100%;
   border: unset;
 }
 
@@ -949,8 +947,8 @@ input[type="date"]:after {
 }
 /* Remove This (Thursday)*/
 /* section.schedule-content {
-margin-top: 170px;
-} */
+        margin-top: 170px;
+        } */
 /* Ends here */
 
 .img-container .item {
@@ -1022,14 +1020,9 @@ section.contact-content {
 }
 
 @media (max-width: 960px) {
-  /* may 18 */
   .judge-img {
     /* display: none; */
-  }
-
-  .judge-img img {
-    height: 300px;
-    z-index: -1;
+    /* opacity: 0; */
   }
   .judge-info {
     /* top: 0; */
@@ -1068,15 +1061,16 @@ section.contact-content {
   /* Ends here */
 }
 
-/* may 18  */
-
-@media (max-width: 601px) {
+@media (max-width: 600px) {
   .carousel-indicators {
     display: flex;
     margin: -35px auto;
     left: 0;
     right: 0;
     bottom: 0;
+  }
+  .home .carousel-inner {
+    max-width: 95%;
   }
   .about-text {
     margin-bottom: 15px;
@@ -1090,21 +1084,14 @@ section.contact-content {
   .carousel-indicators li .fas {
     left: 0.5px !important;
   }
-  .quick-contact form .form-group input {
-    overflow: hidden;
-  }
-  /* edit 01 */
-  .home .carousel-inner {
-    max-width: 95%;
-    padding-bottom: 1em;
-  }
 }
 
 @media (max-width: 500px) {
   .nav-content {
     display: block;
     text-align: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+    padding: 0px;
   }
   .two-btn {
     width: 100%;
@@ -1122,37 +1109,32 @@ section.contact-content {
   #myModel {
     padding-right: 0;
   }
-  /* Newly Modified and ADDED (Thursday) */
-  section.judges-highlights {
-    /* margin-top: 132px; */
-  }
+
   .about-content {
     padding: 15px;
+    margin-top: 15px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 15px;
   }
   /* Ends here */
-  .judge-info p {
-    height: auto;
+
+  /* edited on april 21 */
+  body {
+    max-width: 100vw;
+    overflow-x: visible;
+  }
+  .quick-contact form .form-group input {
+    overflow: hidden;
   }
 }
 
-/* may 18 */
-/* edit 02 */
-@media (max-width: 421px) {
-  .home .carousel-inner {
-    max-width: 100%;
-  }
-  .boarder-space {
-    padding: 1em;
-  }
-  .boarder-space .judge-info p {
-    margin-bottom: 0;
-  }
-}
-@media (max-width: 341px) {
-  .boarder-space .judge-info {
-    padding: 0;
-  }
-  .boarder-space {
-    padding: 1.3em;
-  }
+.quick-contact textarea {
+  width: 100%;
 }
